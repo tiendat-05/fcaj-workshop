@@ -6,121 +6,69 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Summary Report: “Game Show: Cloud Architect” 20-06-2026
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Innovate learning methods through a head-to-head Game Show format, consolidating technical knowledge in an intuitive and engaging manner.
+- Evaluate, test, and expand understanding of Cloud Infrastructure and System Architecture Design principles.
+- Practice teamwork skills, risk analysis mindsets, and strategic decision-making under time pressure.
+- Build a collaborative networking environment among interns across different teams.
 
-### Speakers
+### Rules & Tournament Scale
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Number of Teams:** 8 competing teams (5 members per team).
+- **Competition Format:** 
+  - Teams compete in head-to-head pairs, taking turns answering question sets with difficulty levels ranging from Easy to Hard.
+  - The team with the higher total score at the end of the rounds advances to the next stage.
+  - *Tie-breaker Question:* In the event of a draw, an 11th question is presented; the team that buzzes in fastest with the correct answer wins the match.
+- **Tactical Skill Mechanics (Game Skills):**
+  - **Minimum Risk (Single-use):** Applied to uncertain questions. An incorrect answer incurs no point deduction, while a correct answer earns $1/2$ of the question's base points.
+  - **Star of Hope (Single-use):** Applied to the team's most confident question. A correct answer doubles the earned points (x2), whereas an incorrect answer doubles the point penalty (-x2).
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+Despite taking place as an interactive Game Show, the entirety of the questions revolved around core Cloud & Architecture topics:
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+#### 1. Consolidating Technical Knowledge (Cloud & Architecture Knowledge)
 
-#### Transitioning to modern application architecture – Microservices
+* **Cloud Services Overview:** Reviewing functions, use cases, and optimal combinations across Cloud service categories including Compute, Storage, Database, Networking, and Security.
+* **Architectural Frameworks:** Testing understanding of core pillars in modern system design, including:
+  * High Availability & Fault Tolerance.
+  * Scalability & Auto-scaling.
+  * Security in Depth & Identity and Access Management (IAM).
+  * Cost Optimization and Performance Efficiency.  
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+#### 2. Strategic Decision Making & Risk Management
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+* **Risk & Score Analysis:** Choosing to activate the *"Minimum Risk"* skill taught players hedging mindsets when dealing with architectural scenarios featuring ambiguous requirements.
+* **Confidence & Decisiveness:** The *"Star of Hope"* skill demanded high team consensus and accurate self-assessment of technical capabilities before making high-stakes decisions. 
 
-#### Domain-Driven Design (DDD)
+#### 3. Team Collaboration Under Pressure
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
-
-#### Event-Driven Architecture
-
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
-
-### Key Takeaways
-
-#### Design Mindset
-
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+* **Rapid Domain Tasking:** Within short time limits per question, teams had to instantly delegate to the member strongest in that domain (DevOps, Database, Security, or Networking) to deliver the final answer.
+* **Active Listening & Debating:** Practicing concise communication and active listening to reach a team consensus without wasting turn time.    
 
 ### Applying to Work
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- **System Architecture Design:** Applying standardized architectural principles reviewed during the game show to audit the Cloud Architecture diagram for the Healthcare Web project (ensuring proper multi-tier isolation between Public Subnets and Private Subnets for RDS).
+- **Trade-off Analysis:** Applying risk/benefit analysis lessons when selecting technical solutions (e.g., evaluating cost trade-offs between Managed Services vs. self-hosted instances on EC2).
+- **Team Collaboration:** Adopting decisive working styles and strength-based task distribution during major project syncs.  
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+The **Cloud Architect** event delivered an energetic, highly academic, and deeply engaging atmosphere:
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+#### Creative Learning Approach
+- Transforming dry Cloud architecture concepts into a competitive game show made retaining technical terminology and design patterns feel natural and stress-free.  
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+#### Thrilling Pace & Team Bonding
+- Time pressure combined with strategic skill usage ("Star of Hope", "Minimum Risk") created exciting moments, allowing team members to understand each other better and communicate more openly.  
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+#### Identifying Knowledge Gaps
+- Scenario-based questions highlighted specific architectural domain gaps that I need to continue researching and mastering in the future.   
 
 #### Some event photos
-*Add your event photos here*  
+![Event Participation Evidence](/images/4-EventParticipated/event-20062026.png)  
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+> **Summary:** The "Cloud Architect" event was not only a healthy recreational activity but also an excellent method for reviewing Cloud architecture concepts, refining quick-thinking reflexes, and building teamwork skills for real-world engineering challenges.
