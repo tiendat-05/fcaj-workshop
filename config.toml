@@ -1,4 +1,4 @@
-baseURL = "https://tiendat-05.github.io/fcaj-workshop/"
+baseURL = "/"
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
